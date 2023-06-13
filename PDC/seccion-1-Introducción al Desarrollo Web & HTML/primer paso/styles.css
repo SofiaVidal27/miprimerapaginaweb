@@ -1,0 +1,38 @@
+h1{
+    color: rgb(187, 81, 81);
+    background-color: rgb(243, 152, 172);
+    font-family: Arial;
+    font-size: 30px;
+    margin: 30px;
+    padding: 25px;
+  }
+  p{
+    color: rgb(176, 43, 202);
+    font-family: Poppins;
+    font-size: 20px;
+    margin: 40px;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .box {
+    background-color: lightgrey;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 50px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  @media (max-width: 800px) {
+    .column {
+      flex: 100%;
+    }
+  }

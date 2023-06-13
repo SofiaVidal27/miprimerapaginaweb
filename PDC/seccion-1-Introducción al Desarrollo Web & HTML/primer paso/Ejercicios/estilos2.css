@@ -1,0 +1,30 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    width: 30px;
+    height: 30px;
+    padding: 50px;
+    margin: 50px;
+    border: 1px;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+    width: 30px;
+    height: 30px;
+    padding: 50px;
+    margin: 50px;
+    border: 1px;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: darkseagreen;
+    width: 30px;
+    height: 30px;
+    padding: 50px;
+    margin: 50px;
+    border: 1px;
+}
